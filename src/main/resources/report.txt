@@ -1,0 +1,8 @@
+--------------------- Michael ---------------------
+Total Number of Students: Michael
+Number of Students for Calculating Class Average: Michael
+Class Average: Michael
+Students Missing Grades:
+                   Michael
+=================================================
+The highest average was in Michael with an average of Michael
