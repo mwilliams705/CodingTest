@@ -1,13 +1,15 @@
 package dev.mwdesigns.tft.models;
 
 import com.opencsv.bean.CsvBindByName;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-@Builder
 public class Student {
 
     @CsvBindByName(column = "Student Name")
@@ -15,6 +17,4 @@ public class Student {
     @CsvBindByName(column = "Grade")
     Double grade;
 
-//    Lombok used for code cleanliness.
-//    Replaces code for Getter, Setter, Common constructors, ToString, and Builder Pattern
 }
